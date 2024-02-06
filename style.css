@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#nav {
+    padding: 20px;
+    background-color: rgba(0,0,0,0.9);
+    transition: all 1s;
+}
+
+#calc-body {
+    transition: all 1s;
+    padding: 10px;
+    margin: 50px auto;
+    width: 325px;
+    height: 490px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#display {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 85px;
+    color: rgb(255, 255, 255);
+}
+
+#title:hover {
+    color: rgb(255, 153, 0);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+button {
+    border-radius: 90px;
+    font-weight: bold;
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+button.gray {
+    background-color: rgb(189, 187, 157);
+    color: black;
+}
+
+button.orange {
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+button.normal {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+button.gray:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+button.orange:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 153, 0);
+}
+
+button.normal:hover {
+    background-color: rgb(90, 89, 89);
+    color: white;
+}
